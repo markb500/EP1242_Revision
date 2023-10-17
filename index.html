@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Electrical Principles (1242) Revision</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.card').click(function(e){
+            e.preventDefault();
+            $(this).toggleClass('flipped');
+        })
+    })
+</script>
+
+<style>
+.card-container {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    background-color: transparent; 
+    border-radius: 25px;
+    transition: transform 0.5s;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    background-color: transparent; 
+    border-radius: 25px;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: transform 2s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 25px;
+    box-shadow: 6px 6px 3px 2px rgba(98, 98, 102, 0.4);
+    background-color: lightgoldenrodyellow;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-flexbox-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-back {
+    background-color: lightseagreen;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+</style>
+</head>
+
+<body>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          "fast-preview": {disabled: true},
+          tex2jax: {preview: "none"}
+        });
+    </script>
+    <script>
+        var defsarr = [];
+        var seldefs = [];
+        var prevseldefs = [];
+        function fetchData() {
+            //Puts data from txt file into array by line
+            fetch('stuff/EP 1242 defs.txt')
+                .then(response => response.text())
+                .then(text => text.split(/\r\n|\n/))
+                .then(function (result) {
+                    for (var i = 0; i < result.length; i++) {
+                        defsarr.push(result[i])
+                    }
+                });
+        }
+        fetchData();
+    </script>
+    <div class="py-3 jumbotron text-center" style="margin-bottom:0; background-image:url(stuff/typhoon_line.png); 
+                    background-size:50%; background-repeat:no-repeat; background-position:right center">
+        <img id="cosbadge" width="98" height="135" class="float-left" src="stuff\Cosbadge.png" alt="cosbadge">
+        <h1><br>Electrical Principles (1242) Revision Aid<br><br></h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p>Write down your response <b>before</b> clicking the card to check.<br>
+                Click 'Next' for a new set of definitions.</p>
+        </div>
+        <div class="row mt-2">
+            <button
+            id="next" 
+            class="btn btn-outline-primary" 
+            onclick="gendefs(defsarr.length)">Next
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card-container">
+                <div id="c1" class="card">
+                    <div class="card-front" id="c1f"></div>
+                    <div class="card-back" id="c1b"></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-container">
+                <div id="c2" class="card">
+                    <div class="card-front" id="c2f"></div>
+                    <div class="card-back"id="c2b"></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-container">
+                <div id="c3" class="card">
+                    <div class="card-front"id="c3f"></div>
+                    <div class="card-back"id="c3b"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card-container">
+                <div id="c4" class="card">
+                    <div class="card-front" id="c4f"></div>
+                    <div class="card-back" id="c4b"></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-container">
+                <div id="c5" class="card">
+                    <div class="card-front" id="c5f"></div>
+                    <div class="card-back"id="c5b"></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-container">
+                <div id="c6" class="card">
+                    <div class="card-front"id="c6f"></div>
+                    <div class="card-back"id="c6b"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <p>Designed to aid revision for the electrical principles (1242) element of the RAF Aerospace Eng Tech Course.</p>
+        <p>Designed and built by Mark Butler, APO, RAF Cosford</p>
+    </footer>
+    <script src="utils_flipcard_module.js"></script>
+    <script>
+    function chkarrlen () {
+        //Waits until txt file has been read into defsarr 'cos defsarr.length used in gendefs
+        if (defsarr.length > 0) {
+            document.getElementById("next").click()
+        } else {
+            setTimeout(chkarrlen, 300); // try again in 300 milliseconds
+        }
+    }
+    chkarrlen();
+    </script>
+</body>
+</html>
