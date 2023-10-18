@@ -36,7 +36,7 @@ function gendefs(arrlen) {
     seldefs = [];
         for(var i = 0; i < 11; i += 2) {
             do {
-                var j = rndgen(0, arrlen, 0, 2, -1)
+                var j = rndgen(0, (arrlen - 2), 0, 2, -1)
             } while(seldefs.includes(j) || prevseldefs.includes(j))
             seldefs[i] = j;
             seldefs[i + 1] = j + 1;
