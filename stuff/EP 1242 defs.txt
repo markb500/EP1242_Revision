@@ -36,30 +36,12 @@ Draw the symbol for a potentiometer
 <img src="stuff/pot.png">
 Draw the symbol for a rheostat
 <img src="stuff/rheo.png">
-Draw the symbol for a fixed capacitor
-<img src="stuff/C.png">
-Draw the symbol for a variable capacitor
-<img src="stuff/Cvar.png">
-Draw the symbol for a preset capacitor
-<img src="stuff/Cpre.png">
-Draw the symbol for an electrolytic capacitor, indicating polarity
-<img src="stuff/Celect.png">
-Draw the symbol for an inductor
-<img src="stuff/L.png">
-Draw the symbol for a transformer
-<img src="stuff/tfmr.png">
-Draw the symbol for a relay
-<img src="stuff/relay.png">
 Draw the symbol for an ammeter
 <img src="stuff/A.png">
 Draw the symbol for a voltmeter
 <img src="stuff/V.png">
 Draw the symbol for a generator
 <img src="stuff/G.png">
-Draw the symbol for a motor
-<img src="stuff/M.png">
-Draw the symbol for a diode
-<img src="stuff/diode.png">
 From the formula<br><b>V = IR</b><br>identify each symbol and state its SI units
 V - potential difference   volt (v)<br>I - current   Ampere (A)<br>R - resistance   Ohm (&ohm;)
 State Ohm’s Law
@@ -70,95 +52,11 @@ State the current and voltage relationships for resistors connected in parallel
 The pd across each parallel resistor is the same. The current flowing through each parallel resistor is inversely proportional to the value of the resistor
 Define electrical power
 Electrical power is the rate at which an electrical system can perform work (use energy)
-State 3 uses for capacitors in aircraft
-(Any of)<br>- Fuel contents systems <br>- Navigation light flasher units <br>- High energy igniter units <br>- Electro-static microphones <br>- Photographic flash units
-State the parts of a basic capacitor
-Two metal plates separated by an insulator (dielectric)
-Define the safe working voltage for a capacitor
-The maximum dc voltage that can be applied to a capacitor without the dielectric breaking down
-State 3 safety precautions to be observed when working with capacitors
-- Ensure discharged by following correct Aircraft Documentation Set<br>- Never exceed safe working voltage<br>- Ensure power is not applied to the aircraft
-Name the 2 methods of creating a magnetic field
-Natural (Lodestone) and electromagnet
-In Fleming's left and right hand rules, what do the thumb, first and second fingers represent?
-Thumb - motion<br>1st finger - direction of magnetic field<br>2nd finger - direction of current flow
-Which rule determines the direction of the generated current in a generator?
-Flemings right hand rule
-Which rule determines the direction of motion in a motor?
-Flemings left hand rule
-State Faraday’s law of electromagnetic induction
-When a magnetic flux through a coil is made to vary, an emf is induced. The magnitude of this emf is proportional to the rate of change of flux
-State Lenz’s law of electromagnetic induction
-The induced voltage always acts in such a direction as to oppose the change of flux that produced it
-State the factors that affect the size of the induced emf when a conductor is moved through a magnetic field
-- Strength of the magnetic field<br>- Length of the conductor in the magnetic field<br>- Relative velocity<br>- Angle of the conductor through the magnetic flux
-Define reactance and state its Si units
-Reactance is the opposition to current flow and is frequency dependant. X - Ohm (&ohm;)
-Briefly explain the purpose of a relay
-It allows a small current to control the switching of a larger current
 On a diagram of a sine wave show peak, peak to peak and 1 cycle
 <img src="stuff/sine.png">
 Define the RMS (root mean square) value of an ac supply
 The dc value that would have the same heating effect as the ac supply
-Explain the difference between resistance and reactance
-Resistance is constant. Reactance varies with frequency
-With reference to a simple ac generator, define the following components: the rotor, the stator and the armature
-- Rotor: the rotating part of the machine. <br>- Stator: the stationary part of the machine. <br>- Armature: the part of the machine producing the output power
-In an ac generator, what is the purpose of the slip rings?
-To provide a permanent electrical connection to the rotating part of the machine
-State the 3 main stages of a brushless ac generator
-- Pilot exciter stage <br>- Main exciter stage <br>- Main output stage
-What is the effect of an increase in the speed of rotation of an ac generator?
-There will be an increase in both the voltage and frequency of the output
-In a brushless ac generator, which stage is self-exciting and how is this achieved?
-Pilot exciter. It has a permanent magnet in the rotor.
-Name 2 types of ac motor
-Induction (squirrel cage) motor, synchronous motor or series commutator motor
-Which ac motor is not self-starting
-The synchronous motor
-Name the ac motor that runs at constant speed
-The synchronous motor
-Which ac motor has a cage rotor
-The induction motor
-List the 4 types of field connection in a dc motor
-Separately excited, series, shunt or compound connected
-What is the function of the commutator in a dc motor?
-It acts as a rotating switch to allow continuous movement in one direction
-How can a dc motor be made to reverse direction?
-Either reverse the magnetic field polarity or reverse the direction of the armature current
-Which dc motor has good starting torque?
-The series connected dc motor
-Which dc motor runs at constant speed?
-The shunt connected dc motor
-Name one applicion of a shunt connected dc motor
-(1 of) Windscreen wiper motor, fuel pump motor
-Name one application of a series connected dc motor
-(1 of) Starter motor, actuator
-In a dc generator, what is the purpose of the commutator?
-It works as a rectifier, reversing the polarity every half a turn
-In a dc generator, what 2 methods are used to rectify the ac voltages induced in the armature?
-A commutator or a diode rectifier
-In a dc generator, what is the effect on the output of increasing the number of commutator segments?
-The output voltage is increased and the ac ripple is decreased
-Give 2 examples of analogue data
-Temperature, pressure, altitude, heading
-Explain the difference between analogue and digital data
-Analogue - changes in a continuous manner<br>Digital - changes in a series of discrete steps
-How can the quality of sampled data be improved?
-Increase the sampling rate and/or increase the size of the maximum binary number
-What is a databus?
-A set of wires used to transfer data
-What is an LRU?
-LRU - Line Replaceable Unit
-What is BITE?
-BITE - Built In Test Equipment
-Describe the decimal number system in terms of base, number of digits and range of digits
-Base 10<br>10 digits<br>range 0 - 9
-Describe the hexadecimal number system in terms of base, number of digits and range of digits
-Base 16<br>16 digits<br>range 0 - 9, a - f
-Describe the binary number system in terms of base, number of digits and range of digits
-Base 2<br>2 digits<br>range 0 - 1
-State 2 advantages of using a multiplexed databus architecture
-Wiring looms are lighter and cheaper<br>The system is easier to modify
-State 2 advantages of BITE systems
-Performs fuctional test after unit replacement<br>Facilitates rapid identification of faulty units<br>Reduces the occurence of unconfirmed fault reports<br>Simple operation
+Explain what is indicated by potential difference
+The difference in charge between two points
+Explain what the measurement of current (I) indicates
+The rate of flow of charge through a conductor

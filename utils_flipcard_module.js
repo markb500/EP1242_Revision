@@ -44,7 +44,7 @@ function gendefs(arrlen) {
         setTimeout(function() {
             document.getElementById("c1f").innerHTML = "<b>" + defsarr[seldefs[0]] + "</b>";
             //document.getElementById("c1b").innerHTML = "<b>" + defsarr[seldefs[0]] + "</b><br>" + defsarr[seldefs[1]];
-            document.getElementById("c1b").innerHTML = defsarr[seldefs[1]];
+            document.getElementById("c1b").innerHTML = "<b>" + defsarr[seldefs[0]] + "</b><br>" + defsarr[seldefs[1]];
             document.getElementById("c2f").innerHTML = "<b>" + defsarr[seldefs[2]] + "</b>";
             document.getElementById("c2b").innerHTML = "<b>" + defsarr[seldefs[2]] + "</b><br>" + defsarr[seldefs[3]];
             document.getElementById("c3f").innerHTML = "<b>" + defsarr[seldefs[4]] + "</b>";
