@@ -1,0 +1,92 @@
+State the symbol and SI units for charge
+Q - Coulombs (C)
+State the symbol and SI units for current
+I - amperes (A)
+State the symbol and SI units for potential difference
+pd - volt (v)
+State the symbol and SI units for electromotive force
+EMF or E - volt (v)
+State the symbol and SI unit for resistance
+R - Ohm (&ohm;)
+State the symbol and SI units for power
+P - Watts (W) 
+State the symbol and SI units for energy
+W - Joules (J)
+State the symbol and SI units for capacitance
+C - Farad (F)
+State the symbol and SI units for inductance
+L - Henry (H)
+Draw the symbol for a battery, indicating polarity
+<img src="stuff/bat.png">
+Draw the symbol for an ac supply
+<img src="stuff/acsup.png">
+Draw the symbol for an earth connection
+<img src="stuff/earth.png">
+Draw the symbol for a lamp
+<img src="stuff/lamp.png">
+Draw the symbol for a fuse
+<img src="stuff/fuse.png">
+Draw the symbol for a fixed resistor
+<img src="stuff/R.png">
+Draw the symbol for a variable resistor
+<img src="stuff/Rvar.png">
+Draw the symbol for a preset resistor
+<img src="stuff/Rpre.png">
+Draw the symbol for a potentiometer
+<img src="stuff/pot.png">
+Draw the symbol for a rheostat
+<img src="stuff/rheo.png">
+Draw the symbol for a fixed capacitor
+<img src="stuff/C.png">
+Draw the symbol for a variable capacitor
+<img src="stuff/Cvar.png">
+Draw the symbol for a preset capacitor
+<img src="stuff/Cpre.png">
+Draw the symbol for an electrolytic capacitor, indicating polarity
+<img src="stuff/Celect.png">
+Draw the symbol for an ammeter
+<img src="stuff/A.png">
+Draw the symbol for a voltmeter
+<img src="stuff/V.png">
+Draw the symbol for a generator
+<img src="stuff/G.png">
+From the formula<br><b>V = IR</b><br>identify each symbol and state its SI units
+V - potential difference   volt (v)<br>I - current   Ampere (A)<br>R - resistance   Ohm (&ohm;)
+State Ohm’s Law
+The current flowing through a conductor is proportional to the potential difference across its ends<br>V = I R
+State the current and voltage relationships for resistors connected in series
+The same current flows in each series resistor. The pd across each series resistor is proportional to the value of the resistor
+State the current and voltage relationships for resistors connected in parallel
+The pd across each parallel resistor is the same. The current flowing through each parallel resistor is inversely proportional to the value of the resistor
+Define electrical power
+Electrical power is the rate at which an electrical system can perform work (use energy)
+On a diagram of a sine wave show peak, peak to peak and 1 cycle
+<img src="stuff/sine.png">
+Define the RMS (root mean square) value of an ac supply
+The dc value that would have the same heating effect as the ac supply
+Explain what is indicated by potential difference
+The difference in charge between two points
+Explain what the measurement of current (I) indicates
+The rate of flow of charge through a conductor
+State 3 uses for capacitors in aircraft
+(Any of)<br>- Fuel contents systems <br>- Navigation light flasher units <br>- High energy igniter units <br>- Electro-static microphones <br>- Photographic flash units
+State the parts of a basic capacitor
+Two metal plates separated by an insulator (dielectric)
+Define the safe working voltage for a capacitor
+The maximum dc voltage that can be applied to a capacitor without the dielectric breaking down
+State 3 safety precautions to be observed when working with capacitors
+- Ensure discharged by following correct Aircraft Documentation Set<br>- Never exceed safe working voltage<br>- Ensure power is not applied to the aircraft
+Name the 2 methods of creating a magnetic field
+Natural (Lodestone) and electromagnet
+In Fleming's left and right hand rules, what do the thumb, first and second fingers represent?
+Thumb - motion<br>1st finger - direction of magnetic field<br>2nd finger - direction of current flow
+Which rule determines the direction of the generated current in a generator?
+Flemings right hand rule
+Which rule determines the direction of motion in a motor?
+Flemings left hand rule
+With reference to a simple ac generator, define the following components: the rotor, the stator and the armature
+- Rotor: the rotating part of the machine. <br>- Stator: the stationary part of the machine. <br>- Armature: the part of the machine producing the output power
+In an ac generator, what is the purpose of the slip rings?
+To provide a permanent electrical connection to the rotating part of the machine
+What is the effect of an increase in the speed of rotation of an ac generator?
+There will be an increase in both the voltage and frequency of the output
