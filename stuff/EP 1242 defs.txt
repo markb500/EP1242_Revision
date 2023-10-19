@@ -36,6 +36,14 @@ Draw the symbol for a potentiometer
 <img src="stuff/pot.png">
 Draw the symbol for a rheostat
 <img src="stuff/rheo.png">
+Draw the symbol for a fixed capacitor
+<img src="stuff/C.png">
+Draw the symbol for a variable capacitor
+<img src="stuff/Cvar.png">
+Draw the symbol for a preset capacitor
+<img src="stuff/Cpre.png">
+Draw the symbol for an electrolytic capacitor, indicating polarity
+<img src="stuff/Celect.png">
 Draw the symbol for an ammeter
 <img src="stuff/A.png">
 Draw the symbol for a voltmeter
@@ -60,3 +68,25 @@ Explain what is indicated by potential difference
 The difference in charge between two points
 Explain what the measurement of current (I) indicates
 The rate of flow of charge through a conductor
+State 3 uses for capacitors in aircraft
+(Any of)<br>- Fuel contents systems <br>- Navigation light flasher units <br>- High energy igniter units <br>- Electro-static microphones <br>- Photographic flash units
+State the parts of a basic capacitor
+Two metal plates separated by an insulator (dielectric)
+Define the safe working voltage for a capacitor
+The maximum dc voltage that can be applied to a capacitor without the dielectric breaking down
+State 3 safety precautions to be observed when working with capacitors
+- Ensure discharged by following correct Aircraft Documentation Set<br>- Never exceed safe working voltage<br>- Ensure power is not applied to the aircraft
+Name the 2 methods of creating a magnetic field
+Natural (Lodestone) and electromagnet
+In Fleming's left and right hand rules, what do the thumb, first and second fingers represent?
+Thumb - motion<br>1st finger - direction of magnetic field<br>2nd finger - direction of current flow
+Which rule determines the direction of the generated current in a generator?
+Flemings right hand rule
+Which rule determines the direction of motion in a motor?
+Flemings left hand rule
+With reference to a simple ac generator, define the following components: the rotor, the stator and the armature
+- Rotor: the rotating part of the machine. <br>- Stator: the stationary part of the machine. <br>- Armature: the part of the machine producing the output power
+In an ac generator, what is the purpose of the slip rings?
+To provide a permanent electrical connection to the rotating part of the machine
+What is the effect of an increase in the speed of rotation of an ac generator?
+There will be an increase in both the voltage and frequency of the output
