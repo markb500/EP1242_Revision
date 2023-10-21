@@ -44,12 +44,18 @@ Draw the symbol for a preset capacitor
 <img src="stuff/Cpre.png">
 Draw the symbol for an electrolytic capacitor, indicating polarity
 <img src="stuff/Celect.png">
+Draw the symbol for an inductor
+<img src="stuff/L.png">
 Draw the symbol for an ammeter
 <img src="stuff/A.png">
 Draw the symbol for a voltmeter
 <img src="stuff/V.png">
 Draw the symbol for a generator
 <img src="stuff/G.png">
+Draw the symbol for a motor
+<img src="stuff/M.png">
+Draw the symbol for a diode
+<img src="stuff/diode.png">
 From the formula<br><b>V = IR</b><br>identify each symbol and state its SI units
 V - potential difference   volt (v)<br>I - current   Ampere (A)<br>R - resistance   Ohm (&ohm;)
 State Ohm’s Law
@@ -84,9 +90,37 @@ Which rule determines the direction of the generated current in a generator?
 Flemings right hand rule
 Which rule determines the direction of motion in a motor?
 Flemings left hand rule
+State Faraday’s law of electromagnetic induction
+When a magnetic flux through a coil is made to vary, an emf is induced. The magnitude of this emf is proportional to the rate of change of flux
+State Lenz’s law of electromagnetic induction
+The induced voltage always acts in such a direction as to oppose the change of flux that produced it
+State the factors that affect the size of the induced emf when a conductor is moved through a magnetic field
+- Strength of the magnetic field<br>- Length of the conductor in the magnetic field<br>- Relative velocity<br>- Angle of the conductor through the magnetic flux
+Define reactance and state its SI units
+Reactance is the opposition to current flow and is frequency dependant. X - Ohm (&ohm;)
 With reference to a simple ac generator, define the following components: the rotor, the stator and the armature
 - Rotor: the rotating part of the machine. <br>- Stator: the stationary part of the machine. <br>- Armature: the part of the machine producing the output power
 In an ac generator, what is the purpose of the slip rings?
 To provide a permanent electrical connection to the rotating part of the machine
 What is the effect of an increase in the speed of rotation of an ac generator?
 There will be an increase in both the voltage and frequency of the output
+State the 3 main stages of a brushless ac generator
+- Pilot exciter stage <br>- Main exciter stage <br>- Main output stage
+In a brushless ac generator, which stage is self-exciting and how is this achieved?
+Pilot exciter. It has a permanent magnet in the rotor.
+Name 2 types of ac motor
+Induction (squirrel cage) motor, synchronous motor or series commutator motor
+Which ac motor is not self-starting
+The synchronous motor
+Name the ac motor that runs at constant speed
+The synchronous motor
+Which ac motor has a cage rotor
+The induction motor
+List the 4 types of field connection in a dc motor
+Separately excited, series, shunt or compound connected
+What is the function of the commutator in a dc motor?
+It acts as a rotating switch to allow continuous movement in one direction
+Which dc motor has good starting torque?
+The series connected dc motor
+Which dc motor runs at constant speed?
+The shunt connected dc motor
