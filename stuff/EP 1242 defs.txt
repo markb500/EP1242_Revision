@@ -8,6 +8,8 @@ State the symbol and SI units for electromotive force
 EMF or E - volt (v)
 State the symbol and SI unit for resistance
 R - Ohm (&ohm;)
+State the symbol and SI unit for reactance
+R - Ohm (&ohm;)
 State the symbol and SI units for power
 P - Watts (W) 
 State the symbol and SI units for energy
@@ -62,6 +64,28 @@ Draw the symbol for a diode
 <img src="stuff/diode.png">
 From the formula<br><b>V = IR</b><br>identify each symbol and state its SI units
 V - potential difference   volt (v)<br>I - current   Ampere (A)<br>R - resistance   Ohm (&ohm;)
+Explain the characteristic that results in a material behaving as a conductor
+The material has many free electrons (eg metals)
+Name 3 materials used as electrical conductors
+(eg) Copper, Aluminium, Steel, Gold
+Explain the characteristic that results in a material behaving as an insulator
+Most electrons are firmly held in the molecules (eg covalent bonds)
+Name 3 materials used as electrical insulators
+(eg) Plastic, Rubber, Ceramics, Mica
+State the direction of conventional current flow in an electrical circuit
+From positive to negative
+State the direction of electron current flow in an electrical circuit
+From negative to positive
+Show the lines of magnetic flux around the current carrying conductor shown<img src="stuff/conductorfrom.png">
+<img src="stuff/conductorfluxfrom.png">
+Show the lines of magnetic flux around the current carrying conductor shown<img src="stuff/conductorto.png">
+<img src="stuff/conductorfluxto.png">
+Describe the process by which static electricity builds up on an aircraft
+Caused through friction between air and the fuselage
+Identify two hazards caused by a build up of static electricity
+(Any 2)<br>Fire/explosion when refueling<br>Damage to sensitive electronics<br>Radio interference
+Identify two methods of reducing static electricity on aircraft
+(Any 2 of)<br>Static wicks<br>Fuel additives<br>Conducting tyres<br>Bonding
 State Ohm’s Law
 The current flowing through a conductor is proportional to the potential difference across its ends<br>V = I R
 State the current and voltage relationships for resistors connected in series
@@ -71,17 +95,21 @@ The pd across each parallel resistor is the same. The current flowing through ea
 Define electrical power
 Electrical power is the rate at which an electrical system can perform work (use energy)
 State 3 uses for capacitors in aircraft
-(Any of)<br>- Fuel contents systems <br>- Navigation light flasher units <br>- High energy igniter units <br>- Electro-static microphones <br>- Photographic flash units
+(Any of)<br>- Fuel contents systems <br>- Navigation light flasher units <br>- High energy ignition units <br>- Electro-static microphones <br>- Photographic flash units
 State the parts of a basic capacitor
 Two metal plates separated by an insulator (dielectric)
 Define the safe working voltage for a capacitor
 The maximum dc voltage that can be applied to a capacitor without the dielectric breaking down
 State 3 safety precautions to be observed when working with capacitors
 - Ensure discharged by following correct Aircraft Documentation Set<br>- Never exceed safe working voltage<br>- Ensure power is not applied to the aircraft
-Name the 2 methods of creating a magnetic field
+Name the 2 methods (material or device) of creating a magnetic field
 Natural (Lodestone) and electromagnet
+Draw the lines of magnetic flux around a bar magnet
+<img src="stuff/barmagnet.png">
+List 3 properties of magnetic flux lines
+(Any 3)<br>- Flow N to S outside the magnet<br>- Flow S to N inside the magnet<br>- Flux density greatest where magnetic field strongest<br>- They never cross<br>- Appear to be in tension<br>- They repel each other sideways
 In Fleming's left and right hand rules, what do the thumb, first and second fingers represent?
-Thumb - motion<br>1st finger - direction of magnetic field<br>2nd finger - direction of current flow
+Thumb - motion of conductor<br>1st finger - direction of magnetic field<br>2nd finger - direction of current flow
 Which rule determines the direction of the generated current in a generator?
 Flemings right hand rule
 Which rule determines the direction of motion in a motor?
@@ -96,6 +124,8 @@ Define reactance and state its SI units
 Reactance is the opposition to current flow and is frequency dependant. X - Ohm (&ohm;)
 Briefly explain the purpose of a relay
 It allows a small current to control the switching of a larger current
+In terms of current flow, explain the difference between DC and AC
+AC - the direction of current flow reverses at regular intervals<br>DC - current flows in 1 direction continuously
 On a diagram of a sine wave show peak, peak to peak and 1 cycle
 <img src="stuff/sine.png">
 Define the RMS (root mean square) value of an ac supply
