@@ -76,10 +76,10 @@ State the direction of conventional current flow in an electrical circuit
 From positive to negative
 State the direction of electron current flow in an electrical circuit
 From negative to positive
-Show the lines of magnetic flux around the current carrying conductor shown<img src="stuff/Conductorfrom.png">
-<img src="stuff/Conductorfluxfrom.png">
-Show the lines of magnetic flux around the current carrying conductor shown<img src="stuff/Conductorto.png">
-<img src="stuff/Conductorfluxto.png">
+Show the lines of magnetic flux around the current carrying conductor shown<img src="stuff/conductorfrom.png">
+<img src="stuff/conductorfluxfrom.png">
+Show the lines of magnetic flux around the current carrying conductor shown<img src="stuff/conductorto.png">
+<img src="stuff/conductorfluxto.png">
 Describe the process by which static electricity builds up on an aircraft
 Caused through friction between air and the fuselage
 Identify two hazards caused by a build up of static electricity
