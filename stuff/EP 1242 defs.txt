@@ -64,6 +64,8 @@ Draw the symbol for a diode
 <img src="stuff/diode.png">
 From the formula<br><b>V = IR</b><br>identify each symbol and state its SI units
 V - potential difference   volt (v)<br>I - current   Ampere (A)<br>R - resistance   Ohm (&ohm;)
+Draw and label a diagram of an atom. State the charge of each particle.
+<img src="stuff/atom.png">
 Explain the characteristic that results in a material behaving as a conductor
 The material has many free electrons (eg metals)
 Name 3 materials used as electrical conductors
@@ -166,10 +168,12 @@ Name one application of a series connected dc motor
 (1 of) Starter motor, actuator
 In a dc generator, what is the purpose of the commutator?
 It works as a rectifier, reversing the polarity every half a turn
-In a dc generator, what 2 methods are used to rectify the ac voltages induced in the armature?
+In a dc generator, what 2 methods can be used to rectify the ac voltages induced in the armature?
 A commutator or a diode rectifier
 In a dc generator, what is the effect on the output of increasing the number of commutator segments?
 The output voltage is increased and the ac ripple is decreased
+In a dc generator, what is the effect of increasing the speed of rotation?
+The output voltage will increase.
 Give 2 examples of analogue data
 Temperature, pressure, altitude, heading
 Explain the difference between analogue and digital data
